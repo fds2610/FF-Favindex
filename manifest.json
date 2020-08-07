@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Favindex",
+  "version": "0.0.1",
+
+  "description": "watch favorites winth an index",
+
+  "icons": {
+    "48": "icons/favindex48.png",
+    "96": "icons/favindex96.png"
+  },
+
+  "browser_action": {
+    "default_title": "Favindex",
+		// "default_popup": "popup/enter_index.html",
+		"default_icon": {
+			"64": "icons/favindex64.png"
+		}
+  },
+	
+  "background": {
+    "scripts": ["popup/enter_index.js"]
+  }
+	
+}
